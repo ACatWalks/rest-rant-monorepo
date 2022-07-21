@@ -24,5 +24,6 @@ workflows:
 
       - aws-elastic-beanstalk/deploy:
             app-dir: backend 
+            context: aws-creds
             application-name: Rest-Rant 
             environment-name: Restrant-env 
